@@ -1,9 +1,13 @@
 # Reconstrução
 
 ## Versão Geral
-Use Windows e Python compatível com o fonte. O build geral usa `versoes/geral/gerar_exe.bat` e `SeparadorNF.spec`. Revise caminhos/opções para o ambiente, instale as dependências definidas pelo projeto e execute testes sintéticos antes do build.
+
+Fontes: `versoes/geral/`. O código usa Python padrão, PyMuPDF (`pymupdf`/compatibilidade `fitz`), zxing-cpp, Pillow e pytesseract. O `gerar_exe.bat` também instala PyInstaller e as mesmas bibliotecas.
+
+**Pendência de reprodução:** a versão Geral não tem arquivo de dependências com versões fixadas nem fixa a versão/arquitetura do Python. O BAT usa `pip install --upgrade` e instala os pacotes sem pins; não o execute no Python global. Antes de uma reconstrução confiável, escolha e valide versões em venv isolado e registre-as em lock file. Os arquivos atualmente publicados preservam os requisitos por nome, mas não as versões exatas do build Geral.
 
 ## Windows 7 SP1 x86
+
 Ambiente histórico fixado:
 - CPython 3.8.10 x86
 - PyMuPDF 1.23.26 e PyMuPDFb 1.23.22
