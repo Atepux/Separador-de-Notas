@@ -1,180 +1,144 @@
-                    GNU AFFERO GENERAL PUBLIC LICENSE
-                       Version 3, 19 November 2007
+COPYRIGHT
+---------
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+Copyright (C) 1999-2023 Contributors
 
-                            Preamble
+More detailed copyright information can be found in the individual source code files.
 
-  The GNU Affero General Public License is a free, copyleft license for
-software and other kinds of works, specifically designed to ensure
-cooperation with the community in the case of network server software.
+APPLICABLE LICENSES
+-------------------
 
-  The licenses for most software and other practical works are designed
-to take away your freedom to share and change the works.  By contrast,
-our General Public Licenses are intended to guarantee your freedom to
-share and change all versions of a program--to make sure it remains free
-software for all its users.
+* All NSIS source code, plug-ins, documentation, examples, header files and graphics, with the exception of the compression modules and where otherwise noted, are licensed under the zlib/libpng license.
 
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-them if you wish), that you receive source code or can get it if you
-want it, that you can change the software or use pieces of it in new
-free programs, and that you know you can do these things.
+* The zlib compression module for NSIS is licensed under the zlib/libpng license.
 
-  Developers that use our General Public Licenses protect your rights
-with two steps: (1) assert copyright on the software, and (2) offer
-you this License which gives you legal permission to copy, distribute
-and/or modify the software.
+* The bzip2 compression module for NSIS is licensed under the bzip2 license.
 
-  A secondary benefit of defending all users' freedom is that
-improvements made in alternate versions of the program, if they
-receive widespread use, become available for other developers to
-incorporate.  Many developers of free software are heartened and
-encouraged by the resulting cooperation.  However, in the case of
-software used on network servers, this result may fail to come about.
-The GNU General Public License permits making a modified version and
-letting the public access it on a server without ever releasing its
-source code to the public.
+* The LZMA compression module for NSIS is licensed under the Common Public License version 1.0.
 
-  The GNU Affero General Public License is designed specifically to
-ensure that, in such cases, the modified source code becomes available
-to the community.  It requires the operator of a network server to
-provide the source code of the modified version running there to the
-users of that server.  Therefore, public use of a modified version, on
-a publicly accessible server, gives the public access to the source
-code of the modified version.
+ZLIB/LIBPNG LICENSE
+-------------------
 
-  An older license, called the Affero General Public License and
-published by Affero, was designed to accomplish similar goals.  This is
-a different license, not a version of the Affero GPL, but Affero has
-released a new version of the Affero GPL which permits relicensing under
-this license.
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
-  The precise terms and conditions for copying, distribution and
-modification follow.
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
 
-                       TERMS AND CONDITIONS
+      1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
 
-  0. Definitions.
+      2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
 
-  "This License" refers to version 3 of the GNU Affero General Public License.
+      3. This notice may not be removed or altered from any source distribution.
 
-  "Copyright" also means copyright-like laws that apply to other kinds of
-works, such as semiconductor masks.
+BZIP2 LICENSE
+-------------
 
-  "The Program" refers to any copyrightable work licensed under this
-License.  Each licensee is addressed as "you".  "Licensees" and
-"recipients" may be individuals or organizations.
+This program, "bzip2" and associated library "libbzip2", are copyright (C) 1996-2000 Julian R Seward. All rights reserved.
 
-  To "modify" a work means to copy from or adapt all or part of the work
-in a fashion requiring copyright permission, other than the making of an
-exact copy.  The resulting work is called a "modified version" of the
-earlier work or a work "based on" the earlier work.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-  A "covered work" means either the unmodified Program or a work based
-on the Program.
+      1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    
+      2. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
 
-  To "propagate" a work means to do anything with it that, without
-permission, would make you directly or secondarily liable for
-infringement under applicable copyright law, except executing it on a
-computer or modifying a private copy.  Propagation includes copying,
-distribution (with or without modification), making available to the
-public, and in some countries other activities as well.
+      3. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
 
-  To "convey" a work means any kind of propagation that enables other
-parties to make or receive copies.  Mere interaction with a user through
-a computer network, with no transfer of a copy, is not conveying.
+      4. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
 
-  An interactive user interface displays "Appropriate Legal Notices"
-to the extent that it includes a convenient and prominently visible
-feature that (1) displays an appropriate copyright notice, and (2)
-tells the user that there is no warranty for the work (except to the
-extent that warranties are provided), that licensees may convey the
-work under this License, and how to view a copy of this License.  If
-the interface presents a list of user commands or options, such as a
-menu, a prominent item in the list meets this criterion.
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  1. Source Code.
+Julian Seward, Cambridge, UK.
 
-  The "source code" for a work means the preferred form of the work
-for making modifications to it.  "Object code" means any non-source
-form of a work.
+jseward@acm.org
 
-  A "Standard Interface" means an interface that either is an official
-standard defined by a recognized standards body, or, in the case of
-interfaces specified for a particular programming language, one that
-is widely used among developers working in that language.
+COMMON PUBLIC LICENSE VERSION 1.0
+---------------------------------
 
-  The "System Libraries" of an executable work include anything, other
-than the work as a whole, that (a) is included in the normal form of
-packaging a Major Component, but which is not part of that Major
-Component, and (b) serves only to enable use of the work with that
-Major Component, or to implement a Standard Interface for which an
-implementation is available to the public in source code form.  A
-"Major Component", in this context, means a major essential component
-(kernel, window system, and so on) of the specific operating system
-(if any) on which the executable work runs, or a compiler used to
-produce the work, or an object code interpreter used to run it.
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
-  The "Corresponding Source" for a work in object code form means all
-the source code needed to generate, install, and (for an executable
-work) run the object code and to modify the work, including scripts to
-control those activities.  However, it does not include the work's
-System Libraries, or general-purpose tools or generally available free
-programs which are used unmodified in performing those activities but
-which are not part of the work.  For example, Corresponding Source
-includes interface definition files associated with source files for
-the work, and the source code for shared libraries and dynamically
-linked subprograms that the work is specifically designed to require,
-such as by intimate data communication or control flow between those
-subprograms and other parts of the work.
+1. DEFINITIONS
 
-  The Corresponding Source need not include anything that users
-can regenerate automatically from other parts of the Corresponding
-Source.
+"Contribution" means:
 
-  The Corresponding Source for a work in source code form is that
-same work.
+      a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and
+      b) in the case of each subsequent Contributor:
 
-  2. Basic Permissions.
+      i) changes to the Program, and
 
-  All rights granted under this License are granted for the term of
-copyright on the Program, and are irrevocable provided the stated
-conditions are met.  This License explicitly affirms your unlimited
-permission to run the unmodified Program.  The output from running a
-covered work is covered by this License only if the output, given its
-content, constitutes a covered work.  This License acknowledges your
-rights of fair use or other equivalent, as provided by copyright law.
+      ii) additions to the Program;
 
-  You may make, run and propagate covered works that you do not
-convey, without conditions so long as your license otherwise remains
-in force.  You may convey covered works to others for the sole purpose
-of having them make modifications exclusively for you, or provide you
-with facilities for running those works, provided that you comply with
-the terms of this License in conveying all material for which you do
-not control copyright.  Those t÷]:¶‰ËkºwµçCBƒB–“P‹ÓP”‘ÈPÑS”ÑCB‹KKKKKKKKKKKKKKKKKKCBƒB•\ÈÛÙØ\™H\È›İšYY	Ø\ËZ\ÉËÚ]İ][H^™\ÜÈÜˆ[\YYØ\œ˜[Kˆ[ˆ›È]™[Ú[H]]ÜœÈ™H[XX›H›Üˆ[H[XYÙ\È\š\Ú[™Èœ›ÛHH\ÙHÙˆ\ÈÛÙØ\™KƒBƒB”\›Z\ÜÚ[Ûˆ\ÈÜ˜[YÈ[[Û™HÈ\ÙH\ÈÛÙØ\™H›Üˆ[H\œÜÙK[˜ÛY[™ÈÛÛ[Y\˜ÚX[\XØ][ÛœË[™È[\ˆ][™™Y\İšX]H]œ™Y[KİXš™XİÈH›ÛİÚ[™È™\İšXİ[ÛœÎƒBƒBˆKˆHÜšYÚ[ˆÙˆ\ÈÛÙØ\™H]\İ›İ™HZ\Ü™\™\Ù[YÈ[İH]\İ›İÛZ[H][İHÜ›İHHÜšYÚ[˜[ÛÙØ\™KˆYˆ[İH\ÙH\ÈÛÙØ\™H[ˆH›ÙXİ[ˆXÚÛ›İÛYÛY[[ˆH›ÙXİØİ[Y[][ÛˆÛİ[™H\™XÚX]Y]\È›İ™\]Z\™YƒBƒBˆ‹ˆ[\™YÛİ\˜ÙH™\œÚ[ÛœÈ]\İ™HZ[›HX\šÙY\ÈİXÚ[™]\İ›İ™HZ\Ü™\™\Ù[Y\È™Z[™ÈHÜšYÚ[˜[ÛÙØ\™KƒBƒBˆËˆ\È›İXÙHX^H›İ™H™[[İ™YÜˆ[\™Yœ›ÛH[HÛİ\˜ÙH\İšX][Û‹ƒBƒB–’TˆPÑS”ÑCB‹KKKKKKKKKKKKCBƒB•\È›ÙÜ˜[K˜š\ˆˆ[™\ÜÛØÚX]YXœ˜\H›X˜š\ˆ‹\™HÛÜ\šYÚ
-ÊHNNM‹LŒ[X[ˆˆÙ]Ø\™ˆ[šYÚÈ™\Ù\™YƒBƒB”™Y\İšX][Ûˆ[™\ÙH[ˆÛİ\˜ÙH[™š[˜\H›Ü›\ËÚ]ÜˆÚ]İ][ÙYšXØ][Û‹\™H\›Z]Y›İšYY]H›ÛİÚ[™ÈÛÛ™][ÛœÈ\™HY]ƒBƒBˆKˆ™Y\İšX][ÛœÈÙˆÛİ\˜ÙHÛÙH]\İ™]Z[ˆHX›İ™HÛÜ\šYÚ›İXÙK\È\İÙˆÛÛ™][ÛœÈ[™H›ÛİÚ[™È\ØÛZ[Y\‹ƒBˆBˆ‹ˆHÜšYÚ[ˆÙˆ\ÈÛÙØ\™H]\İ›İ™HZ\Ü™\™\Ù[YÈ[İH]\İ›İÛZ[H][İHÜ›İHHÜšYÚ[˜[ÛÙØ\™KˆYˆ[İH\ÙH\ÈÛÙØ\™H[ˆH›ÙXİ[ˆXÚÛ›İÛYÛY[[ˆH›ÙXİØİ[Y[][ÛˆÛİ[™H\™XÚX]Y]\È›İ™\]Z\™YƒBƒBˆËˆ[\™YÛİ\˜ÙH™\œÚ[ÛœÈ]\İ™HZ[›HX\šÙY\ÈİXÚ[™]\İ›İ™HZ\Ü™\™\Ù[Y\È™Z[™ÈHÜšYÚ[˜[ÛÙØ\™KƒBƒBˆˆH˜[YHÙˆH]]ÜˆX^H›İ™H\ÙYÈ[™ÜœÙHÜˆ›Û[İH›ÙXİÈ\š]™Yœ›ÛH\ÈÛÙØ\™HÚ]İ]ÜXÚYšXÈš[ÜˆÜš][ˆ\›Z\ÜÚ[Û‹ƒBƒB•TÈÓÑ•ĞT‘HTÈ“Õ’QQ–HHUUÔˆTÈTÉÉÈS‘S–HV‘TÔÈÔˆSTQQĞT”S•QTËSÓQS‘Ë•U“ÕSRUQËHSTQQĞT”S•QTÈÑˆQTÒS•P’SUHS‘’U‘TÔÈ“ÔˆHT•PÕSTˆT”ÔÑHT‘HTĞÓRSQQˆSˆ“ÈU‘S•ÒSHUUÔˆ‘HPP“H“ÔˆS–HT‘PÕS‘T‘PÕSÒQS•SÔPÒPSVSTT–KÔˆÓÓ”ÑTUQS•PSSPQÑTÈ
-SÓQS‘Ë•U“ÕSRUQË“ĞÕT‘SQS•ÑˆÕP”ÕUUHÓÓÑÈÔˆÑT•’PÑTÎÈÔÔÈÑˆTÑKUKÔˆ“Ñ’UÎÈÔˆ•TÒS‘TÔÈS•T”•TSÓŠHÕÑU‘TˆĞUTÑQS‘ÓˆS–HSÔ–HÑˆPP’SUKÒUTˆSˆÓÓ•PÕÕ’PÕPP’SUKÔˆÔ•
-SÓQS‘È‘QÓQÑSÑHÔˆÕT•ÒTÑJHT’TÒS‘ÈSˆS–HĞVHÕUÑˆHTÑHÑˆTÈÓÑ•ĞT‘KU‘SˆQˆQ’TÑQÑˆHÔÔÒP’SUHÑˆÕPÒSPQÑKƒBƒB’[X[ˆÙ]Ø\™Ø[XœšYÙKRËƒBƒBšœÙ]Ø\™XÛK›Ü™ÃBƒBÓÓSSÓˆP“PÈPÑS”ÑH‘T”ÒSÓˆKŒB‹KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBƒB•HPĞÓÓTS–RS‘È“ÑÔSHTÈ“Õ’QQS‘TˆHT“TÈÑˆTÈÓÓSSÓˆP“PÈPÑS”ÑH
-QÔ‘QSQS•ŠKˆS–HTÑK‘T“ÑPÕSÓˆÔˆTÕ’P•USÓˆÑˆH“ÑÔSHÓÓ”ÕUUTÈ‘PÒTQS•	ÔÈPĞÑTSÑHÑˆTÈQÔ‘QSQS•ƒBƒBŒKˆQ’S’USÓ”ÃBƒBˆÛÛšX][ÛˆˆYX[œÎƒBƒBˆJH[ˆHØ\ÙHÙˆH[š]X[ÛÛšX]Ü‹H[š]X[ÛÙH[™Øİ[Y[][Ûˆ\İšX]Y[™\ˆ\ÈYÜ™Y[Y[[™BˆŠH[ˆHØ\ÙHÙˆXXÚİXœÙ\]Y[ÛÛšX]ÜƒBƒBˆJHÚ[™Ù\ÈÈH›ÙÜ˜[K[™BƒBˆZJHY][ÛœÈÈH›ÙÜ˜[NÃBƒBˆÚ\™HİXÚÚ[™Ù\È[™ÛÜˆY][ÛœÈÈH›ÙÜ˜[HÜšYÚ[˜]Hœ›ÛH[™\™H\İšX]YH]\Xİ[\ˆÛÛšX]Ü‹ˆHÛÛšX][Ûˆ	ÛÜšYÚ[˜]\ÉÈœ›ÛHHÛÛšX]ÜˆYˆ]Ø\ÈYYÈH›ÙÜ˜[HHİXÚÛÛšX]Üˆ]Ù[ˆÜˆ[[Û™HXİ[™ÈÛˆİXÚÛÛšX]Ü‰ÜÈ™Z[‹ˆÛÛšX][ÛœÈÈ›İ[˜ÛYHY][ÛœÈÈH›ÙÜ˜[HÚXÚˆ
-JH\™HÙ\\˜]H[Ù[\ÈÙˆÛÙØ\™H\İšX]Y[ˆÛÛš[˜İ[ÛˆÚ]H›ÙÜ˜[H[™\ˆZ\ˆİÛˆXÙ[œÙHYÜ™Y[Y[[™
-ZJH\™H›İ\š]˜]]™HÛÜšÜÈÙˆH›ÙÜ˜[KˆBƒBˆÛÛšX]ÜˆˆYX[œÈ[H\œÛÛˆÜˆ[]H]\İšX]\ÈH›ÙÜ˜[KƒBƒBˆ“XÙ[œÙY][ÈˆYX[ˆ][ÛZ[\ÈXÙ[œØX›HHHÛÛšX]ÜˆÚXÚ\™H™XÙ\ÜØ\š[H[™œš[™ÙYHH\ÙHÜˆØ[HÙˆ]ÈÛÛšX][Ûˆ[Û™HÜˆÚ[ˆÛÛXš[™YÚ]H›ÙÜ˜[KƒBƒBˆ”›ÙÜ˜[HˆYX[œÈHÛÛšX][ÛœÈ\İšX]Y[ˆXØÛÜ™[˜ÙHÚ]\ÈYÜ™Y[Y[ƒBƒBˆ”™XÚ\Y[ˆYX[œÈ[[Û™HÚÈ™XÙZ]™\ÈH›ÙÜ˜[H[™\ˆ\ÈYÜ™Y[Y[[˜ÛY[™È[ÛÛšX]ÜœËƒBƒBŒ‹ˆÔS•Ñˆ’QÒÃBƒBˆJHİXš™XİÈH\›\ÈÙˆ\ÈYÜ™Y[Y[XXÚÛÛšX]Üˆ\™XHÜ˜[È™XÚ\Y[H›Û‹Y^Û\Ú]™KÛÜ›ÚYK›ŞX[KYœ™YHÛÜ\šYÚXÙ[œÙHÈ™\›ÙXÙK™\\™H\š]˜]]™HÛÜšÜÈÙ‹X›XÛH\Ü^KX›XÛH\™›Ü›K\İšX]H[™İX›XÙ[œÙHHÛÛšX][ÛˆÙˆİXÚÛÛšX]Ü‹Yˆ[K[™İXÚ\š]˜]]™HÛÜšÜË[ˆÛİ\˜ÙHÛÙH[™Øš™XİÛÙH›Ü›KƒBƒBˆŠHİXš™XİÈH\›\ÈÙˆ\ÈYÜ™Y[Y[XXÚÛÛšX]Üˆ\™XHÜ˜[È™XÚ\Y[H›Û‹Y^Û\Ú]™KÛÜ›ÚYK›ŞX[KYœ™YH][XÙ[œÙH[™\ˆXÙ[œÙY][ÈÈXZÙK\ÙKÙ[Ù™™\ˆÈÙ[[\Ü[™İ\Ú\ÙH˜[œÙ™\ˆHÛÛšX][ÛˆÙˆİXÚÛÛšX]Ü‹Yˆ[K[ˆÛİ\˜ÙHÛÙH[™Øš™XİÛÙH›Ü›Kˆ\È][XÙ[œÙHÚ[\HÈHÛÛXš[˜][ÛˆÙˆHÛÛšX][Ûˆ[™H›ÙÜ˜[HY‹]H[YHHÛÛšX][Ûˆ\ÈYYHHÛÛšX]Ü‹İXÚY][ÛˆÙˆHÛÛšX][ÛˆØ]\Ù\ÈİXÚÛÛXš[˜][ÛˆÈ™HÛİ™\™YHHXÙ[œÙY][ËˆH][XÙ[œÙHÚ[›İ\HÈ[Hİ\ˆÛÛXš[˜][ÛœÈÚXÚ[˜ÛYHHÛÛšX][Û‹ˆ›È\™Ø\™H\ˆÙH\ÈXÙ[œÙY\™][™\‹ˆBƒBˆÊH™XÚ\Y[[™\œİ[™È][İYÚXXÚÛÛšX]ÜˆÜ˜[ÈHXÙ[œÙ\ÈÈ]ÈÛÛšX][ÛœÈÙ]›Ü\™Z[‹›È\Üİ\˜[˜Ù\È\™H›İšYYH[HÛÛšX]Üˆ]H›ÙÜ˜[HÙ\È›İ[™œš[™ÙHH][Üˆİ\ˆ[[XİX[›Ü\HšYÚÈÙˆ[Hİ\ˆ[]KˆXXÚÛÛšX]Üˆ\ØÛZ[\È[HXXš[]HÈ™XÚ\Y[›ÜˆÛZ[\Èœ›İYÚH[Hİ\ˆ[]H˜\ÙYÛˆ[™œš[™Ù[Y[Ùˆ[[XİX[›Ü\HšYÚÈÜˆİ\Ú\ÙKˆ\ÈHÛÛ™][ÛˆÈ^\˜Ú\Ú[™ÈHšYÚÈ[™XÙ[œÙ\ÈÜ˜[Y\™][™\‹XXÚ™XÚ\Y[\™XH\Üİ[Y\ÈÛÛH™\ÜÛœÚXš[]HÈÙXİ\™H[Hİ\ˆ[[XİX[›Ü\HšYÚÈ™YYYYˆ[Kˆ›Üˆ^[\KYˆH\™\H][XÙ[œÙH\È™\]Z\™YÈ[İÈ™XÚ\Y[È\İšX]HH›ÙÜ˜[K]\È™XÚ\Y[	ÜÈ™\ÜÛœÚXš[]HÈXÜ]Z\™H]XÙ[œÙH™Y›Ü™H\İšX][™ÈH›ÙÜ˜[KƒBƒBˆ
-HXXÚÛÛšX]Üˆ™\™\Ù[È]È]ÈÛ›İÛYÙH]\ÈİY™šXÚY[ÛÜ\šYÚšYÚÈ[ˆ]ÈÛÛšX][Û‹Yˆ[KÈÜ˜[HÛÜ\šYÚXÙ[œÙHÙ]›Ü[ˆ\ÈYÜ™Y[Y[ˆBƒBŒËˆ‘TURT‘SQS•ÃBƒBHÛÛšX]ÜˆX^HÚÛÜÙHÈ\İšX]HH›ÙÜ˜[H[ˆØš™XİÛÙH›Ü›H[™\ˆ]ÈİÛˆXÙ[œÙHYÜ™Y[Y[›İšYY]ƒBƒBˆJH]ÛÛ\Y\ÈÚ]H\›\È[™ÛÛ™][ÛœÈÙˆ\ÈYÜ™Y[Y[È[™BƒBˆŠH]ÈXÙ[œÙHYÜ™Y[Y[ƒBƒBˆJHY™™Xİ]™[H\ØÛZ[\ÈÛˆ™Z[ˆÙˆ[ÛÛšX]ÜœÈ[Ø\œ˜[Y\È[™ÛÛ™][ÛœË^™\ÜÈ[™[\YY[˜ÛY[™ÈØ\œ˜[Y\ÈÜˆÛÛ™][ÛœÈÙˆ]H[™›Û‹Z[™œš[™Ù[Y[[™[\YYØ\œ˜[Y\ÈÜˆÛÛ™][ÛœÈÙˆY\˜Ú[Xš[]H[™š]™\ÜÈ›ÜˆH\Xİ[\ˆ\œÜÙNÈBƒBˆZJHY™™Xİ]™[H^ÛY\ÈÛˆ™Z[ˆÙˆ[ÛÛšX]ÜœÈ[XXš[]H›Üˆ[XYÙ\Ë[˜ÛY[™È\™Xİ[™\™XİÜXÚX[[˜ÚY[[[™ÛÛœÙ\]Y[X[[XYÙ\ËİXÚ\ÈÜİ›Ùš]ÎÈBƒBˆZZJHİ]\È][H›İš\Ú[ÛœÈÚXÚY™™\ˆœ›ÛH\ÈYÜ™Y[Y[\™HÙ™™\™YH]ÛÛšX]Üˆ[Û™H[™›İH[Hİ\ˆ\NÈ[™BƒBˆ]ŠHİ]\È]Ûİ\˜ÙHÛÙH›ÜˆH›ÙÜ˜[H\È]˜Z[X›Hœ›ÛHİXÚÛÛšX]Ü‹[™[™›Ü›\ÈXÙ[œÙY\ÈİÈÈØZ[ˆ][ˆH™X\ÛÛ˜X›HX[›™\ˆÛˆÜˆ›İYÚHYY][Hİ\İÛX\š[H\ÙY›ÜˆÛÙØ\™H^Ú[™ÙKˆBƒB•Ú[ˆH›ÙÜ˜[H\ÈXYH]˜Z[X›H[ˆÛİ\˜ÙHÛÙH›Ü›NƒBƒBˆJH]]\İ™HXYH]˜Z[X›H[™\ˆ\ÈYÜ™Y[Y[È[™BƒBˆŠHHÛÜHÙˆ\ÈYÜ™Y[Y[]\İ™H[˜ÛYYÚ]XXÚÛÜHÙˆH›ÙÜ˜[KˆBƒBÛÛšX]ÜœÈX^H›İ™[[İ™HÜˆ[\ˆ[HÛÜ\šYÚ›İXÙ\ÈÛÛZ[™YÚ][ˆH›ÙÜ˜[KƒBƒB‘XXÚÛÛšX]Üˆ]\İY[YH]Ù[ˆ\ÈHÜšYÚ[˜]ÜˆÙˆ]ÈÛÛšX][Û‹Yˆ[K[ˆHX[›™\ˆ]™X\ÛÛ˜X›H[İÜÈİXœÙ\]Y[™XÚ\Y[ÈÈY[YHHÜšYÚ[˜]ÜˆÙˆHÛÛšX][Û‹ƒBƒBˆÓÓSQTÒPSTÕ’P•USÓƒBƒBÛÛ[Y\˜ÚX[\İšX]ÜœÈÙˆÛÙØ\™HX^HXØÙ\Ù\Z[ˆ™\ÜÛœÚXš[]Y\ÈÚ]™\ÜXİÈ[™\Ù\œË\Ú[™\ÜÈ\™\œÈ[™HZÙKˆÚ[H\ÈXÙ[œÙH\È[[™YÈ˜XÚ[]]HHÛÛ[Y\˜ÚX[\ÙHÙˆH›ÙÜ˜[KHÛÛšX]ÜˆÚÈ[˜ÛY\ÈH›ÙÜ˜[H[ˆHÛÛ[Y\˜ÚX[›ÙXİÙ™™\š[™ÈÚİ[ÈÛÈ[ˆHX[›™\ˆÚXÚÙ\È›İÜ™X]Hİ[X[XXš[]H›Üˆİ\ˆÛÛšX]ÜœËˆ\™Y›Ü™KYˆHÛÛšX]Üˆ[˜ÛY\ÈH›ÙÜ˜[H[ˆHÛÛ[Y\˜ÚX[›ÙXİÙ™™\š[™ËİXÚÛÛšX]Üˆ
-ÛÛ[Y\˜ÚX[ÛÛšX]ÜˆŠH\™XHYÜ™Y\ÈÈY™[™[™[™[[šYH]™\Hİ\ˆÛÛšX]Üˆ
-’[™[[šYšYYÛÛšX]ÜˆŠHYØZ[œİ[HÜÜÙ\Ë[XYÙ\È[™ÛÜİÈ
-ÛÛXİ]™[H“ÜÜÙ\ÈŠH\š\Ú[™Èœ›ÛHÛZ[\Ë]ÜİZ]È[™İ\ˆYØ[Xİ[ÛœÈœ›İYÚHH\™\HYØZ[œİH[™[[šYšYYÛÛšX]ÜˆÈH^[Ø]\ÙYHHXİÈÜˆÛZ\ÜÚ[ÛœÈÙˆİXÚÛÛ[Y\˜ÚX[ÛÛšX]Üˆ[ˆÛÛ›™Xİ[ÛˆÚ]]È\İšX][ÛˆÙˆH›ÙÜ˜[H[ˆHÛÛ[Y\˜ÚX[›ÙXİÙ™™\š[™ËˆHØ›YØ][ÛœÈ[ˆ\ÈÙXİ[ÛˆÈ›İ\HÈ[HÛZ[\ÈÜˆÜÜÙ\È™[][™ÈÈ[HXİX[Üˆ[YÙY[[XİX[›Ü\H[™œš[™Ù[Y[ˆ[ˆÜ™\ˆÈ]X[YK[ˆ[™[[šYšYYÛÛšX]Üˆ]\İˆJH›Û\H›İYHHÛÛ[Y\˜ÚX[ÛÛšX]Üˆ[ˆÜš][™ÈÙˆİXÚÛZ[K[™ŠH[İÈHÛÛ[Y\˜ÚX[ÛÛšX]ÜˆÈÛÛ›Û[™ÛÛÜ\˜]HÚ]HÛÛ[Y\˜ÚX[ÛÛšX]Üˆ[‹HY™[œÙH[™[H™[]YÙ][Y[™YÛİX][ÛœËˆH[™[[šYšYYÛÛšX]ÜˆX^H\XÚ\]H[ˆ[HİXÚÛZ[H]]ÈİÛˆ^[œÙKƒBƒB‘›Üˆ^[\KHÛÛšX]ÜˆZYÚ[˜ÛYHH›ÙÜ˜[H[ˆHÛÛ[Y\˜ÚX[›ÙXİÙ™™\š[™Ë›ÙXİˆ]ÛÛšX]Üˆ\È[ˆHÛÛ[Y\˜ÚX[ÛÛšX]Ü‹ˆYˆ]ÛÛ[Y\˜ÚX[ÛÛšX]Üˆ[ˆXZÙ\È\™›Ü›X[˜ÙHÛZ[\ËÜˆÙ™™\œÈØ\œ˜[Y\È™[]YÈ›ÙXİÜÙH\™›Ü›X[˜ÙHÛZ[\È[™Ø\œ˜[Y\È\™HİXÚÛÛ[Y\˜ÚX[ÛÛšX]Ü‰ÜÈ™\ÜÛœÚXš[]H[Û™Kˆ[™\ˆ\ÈÙXİ[Û‹HÛÛ[Y\˜ÚX[ÛÛšX]ÜˆÛİ[]™HÈY™[™ÛZ[\ÈYØZ[œİHİ\ˆÛÛšX]ÜœÈ™[]YÈÜÙH\™›Ü›X[˜ÙHÛZ[\È[™Ø\œ˜[Y\Ë[™YˆHÛİ\™\]Z\™\È[Hİ\ˆÛÛšX]ÜˆÈ^H[H[XYÙ\È\ÈH™\İ[HÛÛ[Y\˜ÚX[ÛÛšX]Üˆ]\İ^HÜÙH[XYÙ\ËƒBƒBKˆ“ÈĞT”S•CBƒB‘VÑTTÈV‘TÔÓHÑU“Ô•SˆTÈQÔ‘QSQS•H“ÑÔSHTÈ“Õ’QQÓˆSˆTÈTÈˆTÒTËÒUÕUĞT”S•QTÈÔˆÓÓ‘USÓ”ÈÑˆS–HÒS‘RUTˆV‘TÔÈÔˆSTQQSÓQS‘ËÒUÕUSRUUSÓ‹S–HĞT”S•QTÈÔˆÓÓ‘USÓ”ÈÑˆUK“Ó‹RS‘”’S‘ÑSQS•QTÒS•P’SUHÔˆ’U‘TÔÈ“ÔˆHT•PÕSTˆT”ÔÑKˆXXÚ™XÚ\Y[\ÈÛÛ[H™\ÜÛœÚX›H›Üˆ]\›Z[š[™ÈH\›ÜšX][™\ÜÈÙˆ\Ú[™È[™\İšX][™ÈH›ÙÜ˜[H[™\Üİ[Y\È[š\ÚÜÈ\ÜÛØÚX]YÚ]]È^\˜Ú\ÙHÙˆšYÚÈ[™\ˆ\ÈYÜ™Y[Y[[˜ÛY[™È]›İ[Z]YÈHš\ÚÜÈ[™ÛÜİÈÙˆ›ÙÜ˜[H\œ›ÜœËÛÛ\X[˜ÙHÚ]\XØX›H]ÜË[XYÙHÈÜˆÜÜÈÙˆ]K›ÙÜ˜[\ÈÜˆ\]Z\Y[[™[˜]˜Z[Xš[]HÜˆ[\œ\[ÛˆÙˆÜ\˜][ÛœËƒBƒB‹ˆTĞÓRSQTˆÑˆPP’SUCBƒB‘VÑTTÈV‘TÔÓHÑU“Ô•SˆTÈQÔ‘QSQS•‘RUTˆ‘PÒTQS•“ÔˆS–HÓÓ•’P•UÔ”ÈÒSU‘HS–HPP’SUH“ÔˆS–HT‘PÕS‘T‘PÕSÒQS•SÔPÒPSVSTT–KÔˆÓÓ”ÑTUQS•PSSPQÑTÈ
-SÓQS‘ÈÒUÕUSRUUSÓˆÔÕ“Ñ’UÊKÕÑU‘TˆĞUTÑQS‘ÓˆS–HSÔ–HÑˆPP’SUKÒUTˆSˆÓÓ•PÕÕ’PÕPP’SUKÔˆÔ•
-SÓQS‘È‘QÓQÑSÑHÔˆÕT•ÒTÑJHT’TÒS‘ÈSˆS–HĞVHÕUÑˆHTÑHÔˆTÕ’P•USÓˆÑˆH“ÑÔSHÔˆHVTÒTÑHÑˆS–H’QÒÈÔS•QT‘US‘T‹U‘SˆQˆQ’TÑQÑˆHÔÔÒP’SUHÑˆÕPÒSPQÑTËƒBƒBËˆÑS‘TSBƒB’Yˆ[H›İš\Ú[ÛˆÙˆ\ÈYÜ™Y[Y[\È[˜[YÜˆ[™[™›Ü˜ÙXX›H[™\ˆ\XØX›H]Ë]Ú[›İY™™XİH˜[Y]HÜˆ[™›Ü˜ÙXXš[]HÙˆH™[XZ[™\ˆÙˆH\›\ÈÙˆ\ÈYÜ™Y[Y[[™Ú]İ]\\ˆXİ[ÛˆHH\Y\È\™]ËİXÚ›İš\Ú[ÛˆÚ[™H™Y›Ü›YYÈHZ[š[][H^[™XÙ\ÜØ\HÈXZÙHİXÚ›İš\Ú[Ûˆ˜[Y[™[™›Ü˜ÙXX›KƒBƒB’Yˆ™XÚ\Y[[œİ]]\È][]YØ][ÛˆYØZ[œİHÛÛšX]ÜˆÚ]™\ÜXİÈH][\XØX›HÈÛÙØ\™H
-[˜ÛY[™ÈHÜ›ÜÜËXÛZ[HÜˆÛİ[\˜ÛZ[H[ˆH]ÜİZ]
-K[ˆ[H][XÙ[œÙ\ÈÜ˜[YH]ÛÛšX]ÜˆÈİXÚ™XÚ\Y[[™\ˆ\ÈYÜ™Y[Y[Ú[\›Z[˜]H\ÈÙˆH]HİXÚ]YØ][Ûˆ\Èš[Yˆ[ˆY][Û‹Yˆ™XÚ\Y[[œİ]]\È][]YØ][ÛˆYØZ[œİ[H[]H
-[˜ÛY[™ÈHÜ›ÜÜËXÛZ[HÜˆÛİ[\˜ÛZ[H[ˆH]ÜİZ]
-H[YÚ[™È]H›ÙÜ˜[H]Ù[ˆ
-^ÛY[™ÈÛÛXš[˜][ÛœÈÙˆH›ÙÜ˜[HÚ]İ\ˆÛÙØ\™HÜˆ\™Ø\™JH[™œš[™Ù\ÈİXÚ™XÚ\Y[	ÜÈ][
-ÊK[ˆİXÚ™XÚ\Y[	ÜÈšYÚÈÜ˜[Y[™\ˆÙXİ[ÛˆŠŠHÚ[\›Z[˜]H\ÈÙˆH]HİXÚ]YØ][Ûˆ\Èš[YƒBƒB[™XÚ\Y[	ÜÈšYÚÈ[™\ˆ\ÈYÜ™Y[Y[Ú[\›Z[˜]HYˆ]˜Z[ÈÈÛÛ\HÚ][HÙˆHX]\šX[\›\ÈÜˆÛÛ™][ÛœÈÙˆ\ÈYÜ™Y[Y[[™Ù\È›İİ\™HİXÚ˜Z[\™H[ˆH™X\ÛÛ˜X›H\š[ÙÙˆ[YHY\ˆ™XÛÛZ[™È]Ø\™HÙˆİXÚ›Û˜ÛÛ\X[˜ÙKˆYˆ[™XÚ\Y[	ÜÈšYÚÈ[™\ˆ\ÈYÜ™Y[Y[\›Z[˜]K™XÚ\Y[YÜ™Y\ÈÈÙX\ÙH\ÙH[™\İšX][ÛˆÙˆH›ÙÜ˜[H\ÈÛÛÛˆ\È™X\ÛÛ˜X›H˜XİXØX›KˆİÙ]™\‹™XÚ\Y[	ÜÈØ›YØ][ÛœÈ[™\ˆ\ÈYÜ™Y[Y[[™[HXÙ[œÙ\ÈÜ˜[YH™XÚ\Y[™[][™ÈÈH›ÙÜ˜[HÚ[ÛÛ[YH[™İ\š]™KƒBƒB‘]™\[Û™H\È\›Z]YÈÛÜH[™\İšX]HÛÜY\ÈÙˆ\ÈYÜ™Y[Y[][ˆÜ™\ˆÈ]›ÚY[˜ÛÛœÚ\İ[˜ŞHHYÜ™Y[Y[\ÈÛÜ\šYÚY[™X^HÛ›H™H[ÙYšYY[ˆH›ÛİÚ[™ÈX[›™\‹ˆHYÜ™Y[Y[İ]Ø\™™\Ù\™\ÈHšYÚÈX›\Ú™]È™\œÚ[ÛœÈ
-[˜ÛY[™È™]š\Ú[ÛœÊHÙˆ\ÈYÜ™Y[Y[œ›ÛH[YHÈ[YKˆ›ÈÛ™Hİ\ˆ[ˆHYÜ™Y[Y[İ]Ø\™\ÈHšYÚÈ[ÙYH\ÈYÜ™Y[Y[ˆP“H\ÈH[š]X[YÜ™Y[Y[İ]Ø\™ˆP“HX^H\ÜÚYÛˆH™\ÜÛœÚXš[]HÈÙ\™H\ÈHYÜ™Y[Y[İ]Ø\™ÈHİZ]X›HÙ\\˜]H[]KˆXXÚ™]È™\œÚ[ÛˆÙˆHYÜ™Y[Y[Ú[™HÚ]™[ˆH\İ[™İZ\Ú[™È™\œÚ[Ûˆ[X™\‹ˆH›ÙÜ˜[H
-[˜ÛY[™ÈÛÛšX][ÛœÊHX^H[Ø^\È™H\İšX]YİXš™XİÈH™\œÚ[ÛˆÙˆHYÜ™Y[Y[[™\ˆÚXÚ]Ø\È™XÙZ]™Yˆ[ˆY][Û‹Y\ˆH™]È™\œÚ[ÛˆÙˆHYÜ™Y[Y[\ÈX›\ÚYÛÛšX]ÜˆX^H[XİÈ\İšX]HH›ÙÜ˜[H
-[˜ÛY[™È]ÈÛÛšX][ÛœÊH[™\ˆH™]È™\œÚ[Û‹ˆ^Ù\\È^™\ÜÛHİ]Y[ˆÙXİ[ÛœÈŠJH[™ŠŠHX›İ™K™XÚ\Y[™XÙZ]™\È›ÈšYÚÈÜˆXÙ[œÙ\ÈÈH[[XİX[›Ü\HÙˆ[HÛÛšX]Üˆ[™\ˆ\ÈYÜ™Y[Y[Ú]\ˆ^™\ÜÛKH[\XØ][Û‹\İÜ[Üˆİ\Ú\ÙKˆ[šYÚÈ[ˆH›ÙÜ˜[H›İ^™\ÜÛHÜ˜[Y[™\ˆ\ÈYÜ™Y[Y[\™H™\Ù\™YƒBƒB•\ÈYÜ™Y[Y[\ÈÛİ™\›™YHH]ÜÈÙˆHİ]HÙˆ™]È[ÜšÈ[™H[[XİX[›Ü\H]ÜÈÙˆH[š]Yİ]\ÈÙˆ[Y\šXØKˆ›È\HÈ\ÈYÜ™Y[Y[Ú[œš[™ÈHYØ[Xİ[Ûˆ[™\ˆ\ÈYÜ™Y[Y[[Ü™H[ˆÛ™HYX\ˆY\ˆHØ]\ÙHÙˆXİ[Ûˆ\›ÜÙKˆXXÚ\HØZ]™\È]ÈšYÚÈÈH\HšX[[ˆ[H™\İ[[™È]YØ][Û‹ˆBƒB”ÔPÒPSVÑTSÓˆ“Ôˆ“PHÓÓT‘TÔÒSÓˆSÑSCB‹KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBƒB’YÛÜˆ]›İˆ[™[Z\ˆŞ™ZÙ[KH]]ÜœÈÙˆH“PHÛÛ\™\ÜÚ[Ûˆ[Ù[H›Üˆ”ÒTË^™\ÜÛH\›Z][İHÈİ]XØ[HÜˆ[˜[ZXØ[H[šÈ[İ\ˆÛÙH
-Üˆš[™H˜[YJHÈHš[\Èœ›ÛHH“PHÛÛ\™\ÜÚ[Ûˆ[Ù[H›Üˆ”ÒTÈÚ]İ]İXš™Xİ[™È[İ\ˆ[šÙYÛÙHÈH\›\ÈÙˆHÛÛ[[ÛˆX›XÈXÙ[œÙH™\œÚ[ÛˆKŒˆ[H[ÙYšXØ][ÛœÈÜˆY][ÛœÈÈš[\Èœ›ÛHH“PHÛÛ\™\ÜÚ[Ûˆ[Ù[H›Üˆ”ÒTËİÙ]™\‹\™HİXš™XİÈH\›\ÈÙˆHÛÛ[[ÛˆX›XÈXÙ[œÙH™\œÚ[ÛˆKŒƒB
+      where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution 'originates' from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program. 
+
+"Contributor" means any person or entity that distributes the Program.
+
+"Licensed Patents " mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+
+"Program" means the Contributions distributed in accordance with this Agreement.
+
+"Recipient" means anyone who receives the Program under this Agreement, including all Contributors.
+
+2. GRANT OF RIGHTS
+
+      a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.
+
+      b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder. 
+
+      c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
+
+      d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement. 
+
+3. REQUIREMENTS
+
+A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
+
+      a) it complies with the terms and conditions of this Agreement; and
+
+      b) its license agreement:
+
+      i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose; 
+
+      ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits; 
+
+      iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and
+
+      iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange. 
+
+When the Program is made available in source code form:
+
+      a) it must be made available under this Agreement; and 
+
+      b) a copy of this Agreement must be included with each copy of the Program. 
+
+Contributors may not remove or alter any copyright notices contained within the Program.
+
+Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
+
+4. COMMERCIAL DISTRIBUTION
+
+Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+
+For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+
+5. NO WARRANTY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+
+6. DISCLAIMER OF LIABILITY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. GENERAL
+
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+
+If Recipient institutes patent litigation against a Contributor with respect to a patent applicable to software (including a cross-claim or counterclaim in a lawsuit), then any patent licenses granted by that Contributor to such Recipient under this Agreement shall terminate as of the date such litigation is filed. In addition, if Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+
+All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. IBM is the initial Agreement Steward. IBM may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+
+This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation. 
+
+SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE
+---------------------------------------------
+
+Igor Pavlov and Amir Szekely, the authors of the LZMA compression module for NSIS, expressly permit you to statically or dynamically link your code (or bind by name) to the files from the LZMA compression module for NSIS without subjecting your linked code to the terms of the Common Public license version 1.0. Any modifications or additions to files from the LZMA compression module for NSIS, however, are subject to the terms of the Common Public License version 1.0.
