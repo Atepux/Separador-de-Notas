@@ -4,7 +4,7 @@ Aplicativo para identificar chaves de acesso em PDFs de notas fiscais e organiza
 
 ## Releases
 
-Há duas variantes planejadas/distribuídas em Releases:
+Há duas variantes publicadas em Releases:
 
 - **Geral**: executável para Windows atual.
 - **Win7 x86**: executável 32 bits destinado ao Windows 7 SP1 x86. O usuário confirmou que o executável final dessa variante funcionou no computador Windows 7 de destino.
