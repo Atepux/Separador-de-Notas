@@ -1,0 +1,5 @@
+PyMuPDF==1.23.26
+zxing-cpp==2.2.0
+Pillow==10.4.0
+pytesseract==0.3.13
+PyInstaller==4.10

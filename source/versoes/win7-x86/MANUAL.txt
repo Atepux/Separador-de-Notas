@@ -1,0 +1,30 @@
+SEPARADOR DE NOTAS — versão preparada para Windows 7 SP1 x86
+
+IMPORTANTE
+Esta versão foi montada para Windows 7 SP1 de 32 bits, mas não foi testada nesse sistema. O executável e o instalador ainda não têm compatibilidade comprovada em Windows 7.
+Este manual descreve o instalador NSIS candidato; o instalador único ainda não foi gerado porque o compilador NSIS oficial não inicia neste host. A revisão das licenças em TERCEIROS_E_LICENCAS.md também mantém pendências.
+
+INSTALAÇÃO
+1. Execute SeparadorNF-Setup.exe como administrador.
+2. O instalador verifica Windows 7 SP1 x86 e o runtime Visual C++/UCRT. Se faltar um componente, tenta instalar o redistribuível offline que acompanha o pacote. Se pedir reinicialização, reinicie para continuar a instalação.
+3. Se aparecer erro, anote a mensagem e consulte C:\ProgramData\Separador de Notas\instalacao.log.
+
+USO
+1. Abra Separador de Notas pelo atalho do menu Iniciar.
+2. Coloque os PDFs em:
+   %LOCALAPPDATA%\Separador de Notas\entrada
+3. Notas identificadas ficam em processadas; documentos sem chave válida ou duplicados ficam em revisar; os PDFs originais lidos ficam em originais.
+4. Logs e registro de notas ficam em %LOCALAPPDATA%\Separador de Notas.
+5. Não apague PDFs de entrada enquanto estão sendo processados. Faça cópias de segurança periódicas das pastas processadas, revisar e originais.
+
+DIAGNÓSTICO
+Execute diagnostico_win7.ps1 por PowerShell para gerar um relatório do sistema, runtimes e tentativa de inicialização. Envie o arquivo diagnostico-win7-*.txt e os logs para suporte. O diagnóstico não instala componentes.
+
+DESINSTALAÇÃO
+Use Programas e Recursos. A desinstalação remove os binários, mas preserva os PDFs, registros e logs em %LOCALAPPDATA%.
+
+LIMITAÇÕES
+- Não requer Python instalado no computador de destino.
+- OCR requer imagem de qualidade suficiente; confirme manualmente documentos em revisar.
+- O pacote precisa ser executado sem internet apenas depois de uma validação real do conteúdo do instalador.
+- Leia TERCEIROS_E_LICENCAS.md e a pasta licenses: há pendências de licenciamento e redistribuição que precisam ser resolvidas antes da distribuição comercial.
